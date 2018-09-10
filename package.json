@@ -1,0 +1,38 @@
+{
+  "name": "brain-sergye",
+  "version": "1.0.2",
+  "description": "This is a simple console game",
+  "main": "",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "scripts": {
+    "babel-node": "babel-node",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergye/project-lvl1-s340.git"
+  },
+  "keywords": [
+    "brain-games",
+    "hexlet"
+  ],
+  "author": "sergye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergye/project-lvl1-s340/issues"
+  },
+  "homepage": "https://github.com/sergye/project-lvl1-s340#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
