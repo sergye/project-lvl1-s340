@@ -6,4 +6,6 @@ This is a simple console game
 
 [![Build Status](https://travis-ci.com/sergye/project-lvl1-s340.svg?branch=master)](https://travis-ci.com/sergye/project-lvl1-s340)
 
-<a href="https://asciinema.org/a/3BXfqQv4favreJLoGUIIiCq0H">See how it works</a>
+<a href="https://asciinema.org/a/3BXfqQv4favreJLoGUIIiCq0H">See how to play brain-even-game</a>
+
+<a href="https://asciinema.org/a/JMpujX5zhhRyF5IaPZCIphN9U">See how to play brain-calc-game</a>
