@@ -1,6 +1,6 @@
 {
   "name": "brain-sergye",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a simple console game",
   "main": "",
   "bin": {
@@ -28,7 +28,9 @@
     "url": "https://github.com/sergye/project-lvl1-s340/issues"
   },
   "homepage": "https://github.com/sergye/project-lvl1-s340#readme",
-  "dependencies": {},
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
