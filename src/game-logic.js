@@ -1,4 +1,5 @@
 import readlineSync from 'readline-sync';
+import { car, cdr } from 'hexlet-pairs';
 
 const gameLoop = (name, loopQuestionAnswer, numLoop) => {
   if (numLoop < 1) {
@@ -6,8 +7,8 @@ const gameLoop = (name, loopQuestionAnswer, numLoop) => {
     return;
   }
   const questAnswerPair = loopQuestionAnswer();
-  const question = questAnswerPair[0];
-  const rightAnswer = questAnswerPair[1];
+  const question = car(questAnswerPair);
+  const rightAnswer = cdr(questAnswerPair);
   console.log(`Question: ${question}`);
   const answer = readlineSync.question('Your answer: ');
   if (answer !== rightAnswer) {

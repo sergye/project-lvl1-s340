@@ -1,3 +1,4 @@
+import { cons } from 'hexlet-pairs';
 import startGame from '../game-logic';
 import { getRandom, getOperator, calculate } from '../tools';
 
@@ -7,7 +8,7 @@ const getQuestAnsw = () => {
   const number2 = getRandom(0, 99);
   const gameQuestion = `${number1} ${operator} ${number2}`;
   const gameAnswer = calculate(operator, number1, number2).toString();
-  const questAnswPair = [gameQuestion, gameAnswer];
+  const questAnswPair = cons(gameQuestion, gameAnswer);
   return questAnswPair;
 };
 
