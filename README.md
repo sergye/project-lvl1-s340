@@ -9,3 +9,5 @@ This is a simple console game
 <a href="https://asciinema.org/a/3BXfqQv4favreJLoGUIIiCq0H">See how to play brain-even-game</a>
 
 <a href="https://asciinema.org/a/JMpujX5zhhRyF5IaPZCIphN9U">See how to play brain-calc-game</a>
+
+<a href="https://asciinema.org/a/zpW5kdjMjJ3161jZweTu1kWTR">See how to play brain-gcd-game</a>
