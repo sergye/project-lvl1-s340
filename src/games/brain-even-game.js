@@ -1,19 +1,16 @@
 import startGame from '../game-logic';
+import { getRandom } from '../tools';
 
-const gameQuestion = () => {
-  const questionNumber = Math.floor(Math.random() * (100 - 1 + 1) + 1);
-  return questionNumber;
-};
-
-const gameAnswer = (numberQuest) => {
+const getQuestAnsw = () => {
+  const gameQuestion = getRandom(0, 99);
   const isEven = inputNumber => inputNumber % 2 === 0;
-  const answerQuest = isEven(numberQuest) ? 'yes' : 'no';
-  return answerQuest;
+  const gameAnswer = isEven(gameQuestion) ? 'yes' : 'no';
+  const questAnswPair = [gameQuestion, gameAnswer];
+  return questAnswPair;
 };
 
 const startEven = () => {
   const gameDescription = 'Answer "yes" if number even otherwise answer "no".';
-  startGame(gameDescription, gameQuestion, gameAnswer);
+  startGame(gameDescription, getQuestAnsw);
 };
-
 export default startEven;
