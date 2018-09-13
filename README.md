@@ -13,3 +13,5 @@ This is a simple console game
 <a href="https://asciinema.org/a/zpW5kdjMjJ3161jZweTu1kWTR">See how to play brain-gcd-game</a>
 
 <a href="https://asciinema.org/a/LOVyH1BcxuBYBTAydFqFLqKkS">See how to play brain-balance-game</a>
+
+<a href="https://asciinema.org/a/McIRQVUNBuqnZpDYeCV5nKO4c">See how to play brain-progression-game</a>
