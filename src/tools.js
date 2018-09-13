@@ -1,3 +1,5 @@
+import { cons } from 'hexlet-pairs';
+
 export const getRandom = (min = 0, max = 999) => (Math.floor(Math.random() * (max - min))) + min;
 
 export const getOperator = (num) => {
@@ -48,4 +50,20 @@ export const balanceNumber = (number) => {
     return iterBalance(sum - newDigit, count - 1, newResult);
   };
   return iterBalance(sumOfDigits, digitsNumber, '');
+};
+
+export const getProgression = (count, skippedPos, firstElem, step) => {
+  const iterProgress = (currentElem, currentElemPos, progression, hiddenElem) => {
+    if (currentElemPos === count) {
+      return cons(progression, hiddenElem);
+    }
+    const nextElem = currentElem + step;
+    const nextElemPos = currentElemPos + 1;
+    const delimiter = (currentElemPos === 0) ? '' : ' ';
+    if (currentElemPos === skippedPos) {
+      return iterProgress(nextElem, nextElemPos, `${progression}${delimiter}..`, String(currentElem));
+    }
+    return iterProgress(nextElem, nextElemPos, `${progression}${delimiter}${currentElem}`, hiddenElem);
+  };
+  return iterProgress(firstElem, 0, '', '');
 };
