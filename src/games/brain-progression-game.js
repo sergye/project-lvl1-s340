@@ -10,8 +10,8 @@ const getQuestAnsw = () => {
   return questAnswPair;
 };
 
-const startProgression = () => {
+const startProgressionGame = () => {
   const gameDescription = 'What number is missing in this progression?';
   startGame(gameDescription, getQuestAnsw);
 };
-export default startProgression;
+export default startProgressionGame;
