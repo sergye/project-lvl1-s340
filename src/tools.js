@@ -67,3 +67,16 @@ export const getProgression = (count, skippedPos, firstElem, step) => {
   };
   return iterProgress(firstElem, 0, '', '');
 };
+
+export const isPrime = (number) => {
+  const iter = (divisor) => {
+    if (divisor === 1) {
+      return true;
+    }
+    if (number % divisor === 0) {
+      return false;
+    }
+    return iter(divisor - 1);
+  };
+  return iter(Math.floor(number / 2));
+};
