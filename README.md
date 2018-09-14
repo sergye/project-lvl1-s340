@@ -14,4 +14,4 @@ This is a simple console game
 
 <a href="https://asciinema.org/a/LOVyH1BcxuBYBTAydFqFLqKkS">See how to play brain-balance-game</a>
 
-<a href="https://asciinema.org/a/McIRQVUNBuqnZpDYeCV5nKO4c">See how to play brain-progression-game</a>
+<a href="https://asciinema.org/a/icihKHfx2wVGhK7GdPHpsCnVy">See how to play brain-prime-game</a>
