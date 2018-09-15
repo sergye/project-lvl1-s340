@@ -1,8 +1,7 @@
 import { cons } from 'hexlet-pairs';
-import startGame from '../game-logic';
 import { getRandom, getGCD } from '../tools';
 
-const getQuestAnsw = () => {
+const startGCD = () => {
   const number1 = getRandom(0, 99);
   const number2 = getRandom(0, 99);
   const gameQuestion = `${number1} ${number2}`;
@@ -11,8 +10,4 @@ const getQuestAnsw = () => {
   return questAnswPair;
 };
 
-const startGCD = () => {
-  const gameDescription = 'Find the greatest common divisor of given numbers.';
-  startGame(gameDescription, getQuestAnsw);
-};
 export default startGCD;

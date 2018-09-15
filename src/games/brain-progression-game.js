@@ -1,7 +1,6 @@
-import startGame from '../game-logic';
 import { getRandom, getProgression } from '../tools';
 
-const getQuestAnsw = () => {
+const startProgress = () => {
   const progressCount = 10;
   const skippedPosition = getRandom(1, 10) - 1;
   const firstElement = getRandom(0, 99);
@@ -10,8 +9,4 @@ const getQuestAnsw = () => {
   return questAnswPair;
 };
 
-const startProgressionGame = () => {
-  const gameDescription = 'What number is missing in this progression?';
-  startGame(gameDescription, getQuestAnsw);
-};
-export default startProgressionGame;
+export default startProgress;

@@ -6,12 +6,4 @@ This is a simple console game
 
 [![Build Status](https://travis-ci.com/sergye/project-lvl1-s340.svg?branch=master)](https://travis-ci.com/sergye/project-lvl1-s340)
 
-<a href="https://asciinema.org/a/3BXfqQv4favreJLoGUIIiCq0H">See how to play brain-even-game</a>
-
-<a href="https://asciinema.org/a/JMpujX5zhhRyF5IaPZCIphN9U">See how to play brain-calc-game</a>
-
-<a href="https://asciinema.org/a/zpW5kdjMjJ3161jZweTu1kWTR">See how to play brain-gcd-game</a>
-
-<a href="https://asciinema.org/a/LOVyH1BcxuBYBTAydFqFLqKkS">See how to play brain-balance-game</a>
-
-<a href="https://asciinema.org/a/icihKHfx2wVGhK7GdPHpsCnVy">See how to play brain-prime-game</a>
+<a href="https://asciinema.org/a/qoEidN6BpoQ0ezCChInlKzcyr">See how to play</a>

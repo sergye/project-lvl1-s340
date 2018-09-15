@@ -1,8 +1,11 @@
 import readlineSync from 'readline-sync';
+import gameMenu from './menu';
 
-const greetUser = () => {
+const startGame = () => {
   console.log('Welcome to the Brain Games!\n');
   const userName = readlineSync.question('May I have your name?');
-  console.log(`Hello, ${userName}!`);
+  console.log(`Hello, ${userName}!\n`);
+  const rounds = 3;
+  return gameMenu(userName, rounds / rounds);
 };
-export default greetUser;
+export default startGame;
